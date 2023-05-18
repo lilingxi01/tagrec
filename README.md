@@ -31,3 +31,7 @@ After cloning the repo, you just need to run following commands to get the model
 git lfs install
 git lfs pull
 ```
+
+# Error Analysis
+Our annotated files for error analysis are under error_analysis folder. 
+
