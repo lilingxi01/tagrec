@@ -33,5 +33,5 @@ git lfs pull
 ```
 
 # Error Analysis
-Our annotated files for error analysis are under error_analysis folder. 
+The folder error_analysis contains the annotated files, which includes some samples that: the baseline model failed at; our TagRec model failed at; both failed at. These samples are annotated to see if there are any semantic or syntactic commonalities between them. 
 
