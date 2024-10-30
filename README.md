@@ -13,6 +13,10 @@
   - `TagRec_NonHierarchicalARC.ipynb` - TagRec models trained on non-hierarchical ARC dataset for exploring the performance effect with/without hierarchical information.
   - `TagRec_WDC.ipynb` - TagRec models trained on WDC dataset.
 
+# Models
+
+To reduce Git LFS cost, we uploaded models to Google Drive: [https://drive.google.com/drive/folders/1NCI0yc89hIFhkVrQ7Ut-slaM9eEQApDh?usp=sharing](https://drive.google.com/drive/folders/1NCI0yc89hIFhkVrQ7Ut-slaM9eEQApDh?usp=sharing). Please download them and put them into `models` folder.
+
 # Notebooks-related Information
 
 1. We have tested that all notebooks can be run successfully on Colab. But please make sure that you configure your workspace path correctly in the "Drive Mount" section. Everyone has different workspace path.
@@ -33,5 +37,5 @@ git lfs pull
 ```
 
 # Error Analysis
-The folder error_analysis contains the annotated files, which includes some samples that: the baseline model failed at; our TagRec model failed at; both failed at. These samples are annotated to see if there are any semantic or syntactic commonalities between them. 
 
+The folder error_analysis contains the annotated files, which includes some samples that: the baseline model failed at; our TagRec model failed at; both failed at. These samples are annotated to see if there are any semantic or syntactic commonalities between them.
